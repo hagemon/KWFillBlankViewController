@@ -12,7 +12,7 @@ Components
 ####KWFillBlankViewController
 
 <p align="center">
-<img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankViewController.gif" width="320" height="628">
+<img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankViewController.gif" width="355" height="640">
 </p>
 
 - Remember to press for a while when you click blanks with Xcode Simulator
@@ -39,7 +39,7 @@ func fillBlankView(fillBlankView: UIView, didSelectedBlankRange range: NSRange)
 ####KWFillBlankTextView
 
 <p align="center">
-<img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankTextView.gif" width="320" height="628">
+<img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankTextView.gif" width="360" height="640">
 </p>
 
 - KWFillBlankTextView is a subclass of UITextView
