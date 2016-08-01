@@ -7,8 +7,6 @@ KWFillBlankViewController
 
 A view controller can fill blank in text view
 
-- There is a demo in the project above
-
 Components
 -----
 ####KWFillBlankViewController
