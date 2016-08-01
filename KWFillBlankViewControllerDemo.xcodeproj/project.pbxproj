@@ -12,10 +12,10 @@
 		BE10C7E51D4C884600A9BC48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE10C7E31D4C884600A9BC48 /* Main.storyboard */; };
 		BE10C7E71D4C884600A9BC48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE10C7E61D4C884600A9BC48 /* Assets.xcassets */; };
 		BE10C7EA1D4C884600A9BC48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE10C7E81D4C884600A9BC48 /* LaunchScreen.storyboard */; };
-		BE3DE9651D4DD6BA005B15BC /* KWFillBlankTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DE9621D4DD6BA005B15BC /* KWFillBlankTextView.swift */; };
-		BE3DE9661D4DD6BA005B15BC /* KWFillBlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DE9631D4DD6BA005B15BC /* KWFillBlankViewController.swift */; };
-		BE3DE9671D4DD6BA005B15BC /* KWInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3DE9641D4DD6BA005B15BC /* KWInputBar.swift */; };
-		BE7926101D4E340B00F939F2 /* KWFillBlankExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE79260F1D4E340B00F939F2 /* KWFillBlankExtension.swift */; };
+		BE7926151D4FACCD00F939F2 /* KWFillBlankExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7926111D4FACCD00F939F2 /* KWFillBlankExtension.swift */; };
+		BE7926161D4FACCD00F939F2 /* KWFillBlankTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7926121D4FACCD00F939F2 /* KWFillBlankTextView.swift */; };
+		BE7926171D4FACCD00F939F2 /* KWFillBlankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7926131D4FACCD00F939F2 /* KWFillBlankViewController.swift */; };
+		BE7926181D4FACCD00F939F2 /* KWInputBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7926141D4FACCD00F939F2 /* KWInputBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		BE10C7E61D4C884600A9BC48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE10C7E91D4C884600A9BC48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE10C7EB1D4C884600A9BC48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BE3DE9621D4DD6BA005B15BC /* KWFillBlankTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KWFillBlankTextView.swift; path = KWFillBlankViewController/KWFillBlankTextView.swift; sourceTree = "<group>"; };
-		BE3DE9631D4DD6BA005B15BC /* KWFillBlankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KWFillBlankViewController.swift; path = KWFillBlankViewController/KWFillBlankViewController.swift; sourceTree = "<group>"; };
-		BE3DE9641D4DD6BA005B15BC /* KWInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KWInputBar.swift; path = KWFillBlankViewController/KWInputBar.swift; sourceTree = "<group>"; };
-		BE79260F1D4E340B00F939F2 /* KWFillBlankExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KWFillBlankExtension.swift; path = KWFillBlankViewController/KWFillBlankExtension.swift; sourceTree = "<group>"; };
+		BE7926111D4FACCD00F939F2 /* KWFillBlankExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFillBlankExtension.swift; sourceTree = "<group>"; };
+		BE7926121D4FACCD00F939F2 /* KWFillBlankTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFillBlankTextView.swift; sourceTree = "<group>"; };
+		BE7926131D4FACCD00F939F2 /* KWFillBlankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFillBlankViewController.swift; sourceTree = "<group>"; };
+		BE7926141D4FACCD00F939F2 /* KWInputBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWInputBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +76,13 @@
 		BE10C7F11D4C886900A9BC48 /* KWFillBlankViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BE3DE9621D4DD6BA005B15BC /* KWFillBlankTextView.swift */,
-				BE3DE9631D4DD6BA005B15BC /* KWFillBlankViewController.swift */,
-				BE3DE9641D4DD6BA005B15BC /* KWInputBar.swift */,
-				BE79260F1D4E340B00F939F2 /* KWFillBlankExtension.swift */,
+				BE7926111D4FACCD00F939F2 /* KWFillBlankExtension.swift */,
+				BE7926121D4FACCD00F939F2 /* KWFillBlankTextView.swift */,
+				BE7926131D4FACCD00F939F2 /* KWFillBlankViewController.swift */,
+				BE7926141D4FACCD00F939F2 /* KWInputBar.swift */,
 			);
 			name = KWFillBlankViewController;
+			path = ../KWFillBlankViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,12 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7926181D4FACCD00F939F2 /* KWInputBar.swift in Sources */,
 				BE10C7E21D4C884600A9BC48 /* ViewController.swift in Sources */,
-				BE7926101D4E340B00F939F2 /* KWFillBlankExtension.swift in Sources */,
-				BE3DE9671D4DD6BA005B15BC /* KWInputBar.swift in Sources */,
+				BE7926171D4FACCD00F939F2 /* KWFillBlankViewController.swift in Sources */,
+				BE7926161D4FACCD00F939F2 /* KWFillBlankTextView.swift in Sources */,
+				BE7926151D4FACCD00F939F2 /* KWFillBlankExtension.swift in Sources */,
 				BE10C7E01D4C884600A9BC48 /* AppDelegate.swift in Sources */,
-				BE3DE9661D4DD6BA005B15BC /* KWFillBlankViewController.swift in Sources */,
-				BE3DE9651D4DD6BA005B15BC /* KWFillBlankTextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
