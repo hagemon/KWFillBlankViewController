@@ -5,7 +5,7 @@ KWFillBlankViewController
 [![Language](http://img.shields.io/badge/language-swift-brightgreen.svg?style=flat
 )](https://developer.apple.com/swift)
 
-A view controller can fill blank in text view
+A view controller can fill blank in text view.
 
 Components
 -----
@@ -15,9 +15,9 @@ Components
 <img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankViewController.gif" width="355" height="640">
 </p>
 
-- Remember to press for a while when you click blanks with Xcode Simulator
-- The default blank is "_"
-- Using by code beneath
+- Remember to press for a while when you click blanks with Xcode Simulator.
+- The default blank is "_".
+- Using by code beneath.
 
 ``` swift
 let text = "your _____ text _____ here "
@@ -25,7 +25,7 @@ let blankViewController = KWFillBlankViewController(contentText: text)
 self.navigationController?.pushViewController(blankViewController, animated: true)
 ```
 
-- If you want to do something when clicking the blank ,just using code beneath
+- If you want to do something when clicking the blank ,just using code beneath ,
 
 ``` swift
 blankViewController.delegate = self
@@ -36,6 +36,21 @@ blankViewController.delegate = self
 ``` swift
 func fillBlankView(fillBlankView: UIView, didSelectedBlankRange range: NSRange)
 ```
+
+- If you want to get the text you select ,just
+
+``` swift
+blankViewController.textView.selectedText()
+```
+
+- If you want to get the array of texts of the blanks you fill
+- you can use this function .
+- The text of the blank you have not fill is ""
+
+``` swift
+let arr:[String] = blankViewController.textView.contentTexts()
+```
+
 ####KWFillBlankTextView
 
 <p align="center">
@@ -63,3 +78,13 @@ func textView(textView: UITextView, shouldInteractWithURL URL: NSURL, inRange ch
 ```
 Installation
 -----
+* Install with CocoaPods
+```
+        Sorry I'm learning pod, see you later
+```
+
+* Copy the KWFillBlankViewController folder to your project
+
+License
+-----
+KWFillBlankViewController is released under the MIT license. See LICENSE for details.
