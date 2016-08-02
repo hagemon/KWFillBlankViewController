@@ -65,7 +65,7 @@ let arr:[String] = blankViewController.textView.contentTexts()
 <img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankTextView.png" width="241" height="47">
 </p>
 
-- If you want to do something when clicking hte blank ,just follow the UITextViewDelegate and using code beneath
+- If you want to do something when clicking the blank ,just follow the UITextViewDelegate and using code beneath
 
 ```swift
 func textView(textView: UITextView, shouldInteractWithURL URL: NSURL, inRange characterRange: NSRange) -> Bool {
