@@ -44,8 +44,8 @@ blankViewController.textView.selectedText()
 ```
 
 - If you want to get the array of texts of the blanks you fill
-- you can use this function .
 - The text of the blank you have not fill is ""
+- You can use this function .
 
 ``` swift
 let arr:[String] = blankViewController.textView.contentTexts()
