@@ -80,7 +80,7 @@ Installation
 -----
 * Install with CocoaPods
 ```
-        Sorry I'm learning pod, see you later
+        pod 'KWFillBlankViewController'
 ```
 
 * Copy the KWFillBlankViewController folder to your project
