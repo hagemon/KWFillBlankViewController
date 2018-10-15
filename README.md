@@ -9,7 +9,7 @@ A view controller can fill blank in text view.
 
 Components
 -----
-####KWFillBlankViewController
+#### KWFillBlankViewController
 
 <p align="center">
 <img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankViewController.gif" width="355" height="640">
@@ -17,7 +17,7 @@ Components
 
 - Remember to press for a while when you click blanks with Xcode Simulator.
 - The default blank is "_".
-- Using by code beneath.
+#### Usage
 
 ``` swift
 let text = "your _____ text _____ here "
@@ -25,7 +25,7 @@ let blankViewController = KWFillBlankViewController(contentText: text)
 self.navigationController?.pushViewController(blankViewController, animated: true)
 ```
 
-- If you want to do something when clicking the blank ,just using code beneath ,
+- If you want to do something when clicking the blank:
 
 ``` swift
 blankViewController.delegate = self
@@ -51,7 +51,7 @@ blankViewController.textView.selectedText()
 let arr:[String] = blankViewController.textView.contentTexts()
 ```
 
-####KWFillBlankTextView
+#### KWFillBlankTextView
 
 <p align="center">
 <img style="-webkit-user-select: none;" src="./ScreenShots/KWFillBlankTextView.gif" width="360" height="640">
@@ -80,7 +80,7 @@ Installation
 -----
 * Install with CocoaPods
 ```
-        pod 'KWFillBlankViewController'
+pod 'KWFillBlankViewController'
 ```
 
 * Copy the KWFillBlankViewController folder to your project
